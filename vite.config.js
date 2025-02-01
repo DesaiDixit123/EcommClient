@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       "/api":{
-        target:"http://localhost:7200",
+        target:"https://ecommserver1.onrender.com",
         changeOrigin:true,
         sourcemap: true,
       }
